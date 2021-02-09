@@ -4,16 +4,16 @@
             <router-link to="/">Hjem</router-link>
         </div>
         <div class="nav-item">
-            <router-link to="/om-meg">Om meg</router-link>
+            <router-link to="/premier-league">Premier League 2020/21</router-link>
         </div>
         <div class="nav-item">
-            <router-link to="/fotball">Fotball</router-link>
+            <router-link to="/fun-fact">Fun Facts</router-link>
         </div>
         <div class="nav-item">
-            <router-link to="/tur">Tur</router-link>
+            <router-link to="/lag">Lag</router-link>
         </div>
         <div class="nav-item">
-            <router-link to="/reising">Reising</router-link>
+            <router-link to="/bilder">Bilder</router-link>
         </div>
     </nav>
 </template>

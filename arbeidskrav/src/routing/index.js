@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Hjem from '../views/Hjem'
-import OmMeg from '../views/OmMeg'
-import Tur from '../views/Tur'
-import Fotball from '../views/Fotball'
-import Reising from '../views/Reising'
+import PL from '../views/PL'
+import Lag from '../views/Lag'
+import FunFact from '../views/FunFact'
+import Bilder from '../views/Bilder'
 
 
 const routes = [
@@ -14,27 +14,27 @@ const routes = [
     },
 
     {
-        name: "OmMeg",
-        path: "/om-meg",
-        component: OmMeg
+        name: "PL",
+        path: "/premier-league",
+        component: PL
     },
     {
     
-        name: "Tur",
-        path: "/tur",
-        component: Tur
+        name: "lag",
+        path: "/lag",
+        component: Lag
     },
 
     {
-        name: "Fotball",
-        path: "/fotball",
-        component: Fotball
+        name: "Funfact",
+        path: "/fun-fact",
+        component: FunFact
     },
 
     {
-        name: "Reising",
-        path: "/reising",
-        component: Reising
+        name: "Bilder",
+        path: "/bilder",
+        component: Bilder
     },
 ];
 

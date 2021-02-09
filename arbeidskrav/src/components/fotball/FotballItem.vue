@@ -1,9 +1,8 @@
 <template>
     <article>
         <br>
-        <h1>{{place}}</h1>
-       <h1>{{club}}</h1>
-       <h1>{{points}}</h1>
+        <h1>{{place}} {{club}} {{points}} </h1>
+        
     </article>
 </template>
 
@@ -16,3 +15,5 @@ export default {
     }
 }
 </script>
+
+
