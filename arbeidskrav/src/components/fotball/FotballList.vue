@@ -5,6 +5,7 @@
         :key="index"
         :place="team.place"
         :club="team.club"
+        :points="team.points"
         />
     </section>
 </template>
@@ -17,11 +18,11 @@ export default {
     setup(){
 
         const fotballClub = ref([
-            {place: "1", club: "Manchester City"},
-            {place: "2", club: "Manchester United"},
-            {place: "3", club: "Leicster City"},
-            {place: "4", club: "Liverpool"},
-            {place: "5", club: "Chelsea"}
+            {place: "1", club: "Manchester City", points: "50"},
+            {place: "2", club: "Manchester United", points: "45"},
+            {place: "3", club: "Leicster City", points: "43"},
+            {place: "4", club: "Liverpool", points: "40"},
+            {place: "5", club: "Chelsea", points: "39"}
         ]);
 
     return {fotballClub, FotballItem}

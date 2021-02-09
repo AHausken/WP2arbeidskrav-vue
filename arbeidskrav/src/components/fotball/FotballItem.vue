@@ -3,6 +3,7 @@
         <br>
         <h1>{{place}}</h1>
        <h1>{{club}}</h1>
+       <h1>{{points}}</h1>
     </article>
 </template>
 
@@ -10,7 +11,8 @@
 export default {
     props: {
         place: Number,
-        club: String
+        club: String,
+        points: Number
     }
 }
 </script>
