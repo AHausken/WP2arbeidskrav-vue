@@ -19,10 +19,9 @@
             <li :class="{ 'golden-txt' : unitedPoints > 99 }">{{unitedPoints}}</li>
             <input :class="{ 'golden-btn' : unitedPoints > 99 }" v-on:click="addPoints" type="button" value="Gi Manchester United mer poeng">
         </ul>
+
     </section>
-    <article>
-        
-    </article>
+   
 </template>
 
 <script>
@@ -49,4 +48,12 @@ export default {
 .golden-txt{
     color: gold;
 }
+
+
+     li{
+        color: black;
+        font-size: 23px;
+    }
+
+
 </style>

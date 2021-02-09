@@ -5,6 +5,10 @@
         <br>
         <ManchesterUnited/>
     </section>
+
+    <section>
+        <img id="trophy" src="../assets/pltrophy.png">
+    </section>
 </template>
 
 <script>
