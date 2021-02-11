@@ -3,6 +3,7 @@
         <br>
         <h1>{{place}} {{club}} {{points}} </h1>
         
+        
     </article>
 </template>
 
