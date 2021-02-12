@@ -3,7 +3,8 @@
     <br>
 
     <input type="button" @click="showFav =! showFav" value="Trykk for mitt favoritt lag">
-    
+    <br>
+    <br>
     <input type="button" @click="showTeamNow =! showTeamNow" value="Trykk for å se hvordan laget ser ut i dag">
 
     
